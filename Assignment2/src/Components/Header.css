@@ -1,0 +1,176 @@
+.navbar{
+    height: 10%;
+    width: 70%;
+    margin-top: 48px;
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+    
+}
+
+ul{
+   
+    height: 50px;
+    width: 60%;
+    color:rgb(31, 26, 26);
+    margin: 20px 0 0px 25px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 40px;
+    display: flex;
+    list-style: none;
+    
+
+}
+li{
+    font-size: large;
+    height: 70%;
+    width: 30%;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+li:nth-child(2){
+    background: rgb(44, 43, 43);
+    color: aliceblue;
+  }
+  
+  li:nth-child(3){
+    background: rgb(50, 49, 49);
+    color: aliceblue;
+  }
+ /* DelayedInput.css */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left {
+    width: 50%;
+    
+    border-radius: 15px;
+   
+  }
+  select, input {
+    padding: 5px;
+    height: auto;
+    border-radius: 5px;
+}
+.borrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color: rgb(78, 74, 74);
+    padding: 5px;
+    border: 1px solid rgb(145, 201, 236);
+    font-size: 9px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+  
+  .delayed-input {
+    margin: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80%;
+  }
+
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+  }
+  
+  label {
+    font-weight: 300;
+    font-size: 10px;
+
+  }
+  
+  .display-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:40%;
+  }
+  
+  .right {
+    width: 50%;
+    /* Add styling for the right side if needed */
+  }
+  
+  .dotted-div-right {
+    width: 90%; /* Adjust the width as needed */
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(74, 71, 71); /* Dotted border style in black color */
+    margin: 10px; /* Adjust the spacing between the dotted div and other content */
+    background-color:rgb(17, 17, 17) ;
+  }
+  .button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: auto;
+    height: 12%;
+    width: 25%;
+    margin-top: 20%;
+    margin-left: 75%;
+    font: bold;
+  }
+  .ba{
+   margin-top: 30%;
+    border: rgb(240, 239, 239) 1px dotted;
+  }
+  .dotted-right1{
+    width: 90%; /* Adjust the width as needed */
+    height: 50%;
+    border-radius: 10px;
+    border: 1px solid rgb(74, 71, 71);
+    margin: 10px; /* Adjust the spacing between the dotted div and other content */
+    background-color:rgb(17, 17, 17) ;
+  }
+  span{
+    margin: 20px;
+    
+  }
+  .dotted-right2{
+    width: 90%; /* Adjust the width as needed */
+    height: 28%;
+    border-radius: 10px;
+    border: 1px solid rgb(74, 71, 71); /* Dotted border style in black color */
+    margin: 10px; /* Adjust the spacing between the dotted div and other content */
+    background-color:rgb(17, 17, 17) ;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Adjust navbar for smaller screens */
+    .navbar {
+        width: 90%;
+    }
+
+    /* Adjust ul for smaller screens */
+    ul {
+        width: 90%;
+    }
+
+    /* Adjust li for smaller screens */
+    li {
+        font-size: medium;
+        width: 40%;
+    }
+    .button {
+        width: 50%; /* Adjust the width as needed for smaller screens */
+        margin-left: 25%; /* Adjust the margin as needed for smaller screens */
+    }
+}
